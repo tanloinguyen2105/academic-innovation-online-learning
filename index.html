@@ -1,34 +1,54 @@
 <!DOCTYPE html>
-
-<header>
-    <title>Hi there!</title>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - My Profile</title>
     <link rel="stylesheet" href="style.css">
-</header>
-
+</head>
 <body>
-    <main>
-         My profile
-         <a href="https://gn027c.github.io/">Click right there!</a>
-    </main>
-    <h1>My information</h1>
-    <ul>
-        <li>First</li>
-        <li>Second</li>
-        <li>Thirt</li>
-    </ul>
-    <h1>Galary</h1>
-    <div class='flexbox'>
-        <img 
-            src='https://academic-innovation-online-learning.github.io/WD4E-Intro_to_HTML5/HTML-week3-sample_project1/images/band.jpeg'>
-        <img
-            src='https://academic-innovation-online-learning.github.io/WD4E-Intro_to_HTML5/HTML-week3-sample_project1/images/diag.jpg'>
-        <img
-            src='https://academic-innovation-online-learning.github.io/WD4E-Intro_to_HTML5/HTML-week3-sample_project1/images/lawquad.jpeg'>
+    <a href="#main" id="skip">Skip to Main Content</a>
 
-    </div>
+    <header>
+        <nav>
+            <img src="https://academic-innovation-online-learning.github.io/WD4E-Intro_to_HTML5/HTML-week3-sample_project1/images/band.jpeg" alt="University of Michigan Logo">
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="neighborhood.html">Neighborhood</a></li>
+                <li><a href="parks.html">Parks</a></li>
+            </ul>
+        </nav>
+        <h1>Personal Information</h1>
+    </header>
+
+    <main id="main">
+        <section>
+            <h2>My Profile</h2>
+            <p>Hello! This is my personal profile page where I share course information and assignments.</p>
+            <a href="https://gn027c.github.io/">Click here to see more!</a>
+        </section>
+
+        <section>
+            <h2>More Information</h2>
+            <ul>
+                <li>First interest</li>
+                <li>Second interest</li>
+                <li>Third interest</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Gallery</h2>
+            <div class="flex">
+                <img src="https://academic-innovation-online-learning.github.io/WD4E-Intro_to_HTML5/HTML-week3-sample_project1/images/band.jpeg" alt="University of Michigan marching band">
+                <img src="https://academic-innovation-online-learning.github.io/WD4E-Intro_to_HTML5/HTML-week3-sample_project1/images/diag.jpg" alt="Diag campus center at University of Michigan">
+                <img src="https://academic-innovation-online-learning.github.io/WD4E-Intro_to_HTML5/HTML-week3-sample_project1/images/lawquad.jpeg" alt="Historic Law Quad at University of Michigan">
+            </div>
+        </section>
+    </main>
+
     <footer>
-        <h1>
-            This is the end
-        </h1>
+        <p>© 2026 My Personal Website. All rights reserved.</p>
     </footer>
 </body>
+</html>
